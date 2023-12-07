@@ -1,0 +1,59 @@
+.footer-container{
+    margin-top: 2px;
+    position: relative;
+    /* height: 500px; */
+    background-color: black;
+}
+
+.first-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 40%;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+}
+
+.first-container .items {
+    padding: 15px 30px;
+}
+
+.title-list {
+    font-size: small;
+    margin-top: 10px;
+}
+
+.second-container{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 15px 30px;
+}
+.bg-company {
+    padding: 10px;
+    background-color: yellow;
+}
+
+.chip {
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+    padding:2px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 786px) {
+    .first-container{
+        grid-template-columns: auto;
+        padding: 10px;
+    }
+
+    .second-container{
+        color: white;
+        flex-wrap: wrap;
+    }
+
+}

@@ -1,0 +1,28 @@
+:root{
+  --bg-flash-header: #FDC400;
+}
+
+/* width */
+::-webkit-scrollbar {
+  height: 2px;
+  display : none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #fff; 
+display : none;
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #fff; 
+display : none;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #fff; 
+display : none;
+}

@@ -1,0 +1,10 @@
+.flash-header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-flash-header{
+    background-color: var(--bg-flash-header);
+}
